@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-ts-checker",
   "version": "1.0.0",
-  "description": "Adds typescript type checker and linter to Gatsby",
+  "description": "Adds typescript type checking to Gatsby",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
