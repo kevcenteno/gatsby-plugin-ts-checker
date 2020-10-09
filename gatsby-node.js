@@ -5,6 +5,8 @@ exports.onCreateWebpackConfig = ({ stage, actions }, options) => {
     return;
   }
 
+  delete options.plugins;
+
   actions.setWebpackConfig({
     plugins: [
       new ForkTsCheckerWebpackPlugin({
@@ -14,6 +16,7 @@ exports.onCreateWebpackConfig = ({ stage, actions }, options) => {
           infrastructure: 'silent',
           issues: 'silent',
         },
+        ...options,
       }),
     ],
   });

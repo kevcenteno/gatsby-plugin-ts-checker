@@ -29,8 +29,10 @@ module.exports = {
     'gatsby-plugin-typescript',
     {
       options: {
-        memoryLimit: 4096,
-        mode: 'write-tsbuildinfo',
+        typescript: {
+          memoryLimit: 4096,
+          mode: 'write-tsbuildinfo',
+        },
       },
       resolve: 'gatsby-plugin-ts-checker',
     }
