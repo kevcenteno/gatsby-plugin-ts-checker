@@ -9,8 +9,11 @@ exports.onCreateWebpackConfig = ({ stage, actions }, options) => {
     plugins: [
       new ForkTsCheckerWebpackPlugin({
         async: false,
-        silent: true,
         formatter: 'codeframe',
+        logger: {
+          infrastructure: 'silent',
+          issues: 'silent',
+        },
         ...options,
       }),
     ],
