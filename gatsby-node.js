@@ -14,7 +14,6 @@ exports.onCreateWebpackConfig = ({ stage, actions }, options) => {
           infrastructure: 'silent',
           issues: 'silent',
         },
-        ...options,
       }),
     ],
   });
