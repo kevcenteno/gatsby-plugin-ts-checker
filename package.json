@@ -1,0 +1,28 @@
+{
+  "name": "gatsby-plugin-ts-checker",
+  "version": "1.0.0",
+  "description": "Adds typescript type checker and linter to Gatsby",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevcenteno/gatsby-plugin-ts-checker.git"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "typescript",
+    "ts-loader"
+  ],
+  "author": "Kevin Centeno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevcenteno/gatsby-plugin-ts-checker/issues"
+  },
+  "homepage": "https://github.com/kevcenteno/gatsby-plugin-ts-checker#readme",
+  "dependencies": {
+    "fork-ts-checker-webpack-plugin": "^5.2.0"
+  }
+}
