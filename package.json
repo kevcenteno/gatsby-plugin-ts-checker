@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-ts-checker",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Adds typescript type checking to Gatsby",
   "main": "index.js",
   "scripts": {
