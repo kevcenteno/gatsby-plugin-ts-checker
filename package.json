@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/kevcenteno/gatsby-plugin-ts-checker#readme",
   "dependencies": {
-    "fork-ts-checker-webpack-plugin": "^5.2.0"
+    "fork-ts-checker-webpack-plugin": "^6.0.0"
   },
   "devDependencies": {
     "np": "6.5.0",
